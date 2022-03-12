@@ -98,10 +98,12 @@ class Reservation extends Component {
                                     [
                                         {
                                             text: 'Cancel',
-                                            style: 'cancel'
+                                            style: 'cancel',
+                                            onPress: this.resetForm()
                                         },
                                         {
-                                            text: 'OK'
+                                            text: 'OK',
+                                            onPress: this.resetForm()
                                         }
                                     ]
                                 )}
